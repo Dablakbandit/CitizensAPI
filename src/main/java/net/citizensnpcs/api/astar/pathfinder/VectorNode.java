@@ -49,7 +49,7 @@ public class VectorNode extends AStarNode implements PathPoint {
 
     @Override
     public VectorNode createAtOffset(Vector mod) {
-    	return new VectorNode(this, mod, info);
+        return new VectorNode(this, mod, info);
     }
 
     public float distance(VectorNode to) {
